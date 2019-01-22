@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoyMain4">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="302dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:text="Q4: Which colour do you feel like today?"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginBottom="196dp"
+        android:text="White" />
+
+    <Button
+        android:id="@+id/col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/col1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:text="Black" />
+
+    <Button
+        android:id="@+id/col3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/col1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="93dp"
+        android:text="Red" />
+
+    <Button
+        android:id="@+id/col4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/col2"
+        android:layout_alignTop="@+id/col3"
+        android:text="Blue" />
+</RelativeLayout>

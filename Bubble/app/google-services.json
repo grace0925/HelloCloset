@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "863409432864",
+    "firebase_url": "https://starterst-t.firebaseio.com",
+    "project_id": "starterst-t",
+    "storage_bucket": "starterst-t.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863409432864:android:4771c5f3d6a0eb8c",
+        "android_client_info": {
+          "package_name": "com.example.graceliu.bubble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863409432864-pdtdks930vo76ajn74jfhsomitdhm6a0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.graceliu.bubble",
+            "certificate_hash": "12b0f1d583e50f3071fe732fafef8281851a3414"
+          }
+        },
+        {
+          "client_id": "863409432864-2chqg2mcbit31jouccpjqjqes1bb5jsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtEPldz-Y9EKq-vsgOARoLZRXSk0_R9lI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863409432864-7m78bhp51c22cum74rdldpr14d8f7n38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

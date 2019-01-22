@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoyMain2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:text="Q2: Is your event formal?"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/formalYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginBottom="193dp"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/formalNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/formalYes"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="1dp"
+        android:text="NO" />
+</RelativeLayout>
